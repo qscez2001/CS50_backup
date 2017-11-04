@@ -1,0 +1,25 @@
+0. Besides 4 × 4 (which are Game of Fifteen’s dimensions), what other dimensions does the framework allow?
+
+Board must be between 3 x 3 and 9 x 9, inclusive.
+
+1. With what sort of data structure is the game’s board represented?
+
+bubble sort
+
+2. What function is called to greet the player at game’s start?
+
+void greet(void)
+{
+    clear();
+    printf("WELCOME TO GAME OF FIFTEEN\n");
+    usleep(2000000);
+}
+
+3. What functions do you apparently need to implement?
+
+init()
+draw()
+move()
+won()
+swap()
+
